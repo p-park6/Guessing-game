@@ -97,7 +97,7 @@ def category_animals():
     Lion
     Turtle
     Sea Otter
-Before we get into hints, what sport do you think I am thinking about?:""")
+Before we get into hints, what animal do you think I am thinking about?:""")
 #'here is the first hint!'
 #Finished! need to make command that runs hint: to do that, i need to make command that knows what sport the program chose and output the hints for that sport
 #Finished! make hint_all and put all hints into that variable
@@ -127,9 +127,9 @@ Before we get into hints, what sport do you think I am thinking about?:""")
             animal_hints()
             #print(sports_hints)
     if guess == (f_answer_animals):
-        print("Congratulations, you guessed the sport I am thinking of!")
+        print("Congratulations, you guessed the animal I am thinking of!")
     else:
-        print("You didn't guess the sport. The answer is " +f_answer_animals)
+        print("You didn't guess the animal. The answer is " +f_answer_animals)
 
 def category_bts_members():
     number_of_guess=0
@@ -143,7 +143,7 @@ def category_bts_members():
     Suga
     Jungkook
     Jin
-Before we get into hints, what sport do you think I am thinking about?:""")
+Before we get into hints, which member do you think I am thinking about?:""")
 #'here is the first hint!'
 #Finished! need to make command that runs hint: to do that, i need to make command that knows what sport the program chose and output the hints for that sport
 #Finished! make hint_all and put all hints into that variable
@@ -179,8 +179,8 @@ Before we get into hints, what sport do you think I am thinking about?:""")
             bts_members_hints()
             #print(sports_hints)
     if guess == (f_answer_bts_members):
-        print("Congratulations, you guessed the sport I am thinking of!")
+        print("Congratulations, you guessed the member I am thinking of!")
     else:
-        print("You didn't guess the sport. The answer is " +f_answer_bts_members)
+        print("You didn't guess the member. The answer is " +f_answer_bts_members)
 
 guessing_game()
